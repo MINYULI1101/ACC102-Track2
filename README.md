@@ -28,8 +28,8 @@ The intended audience includes finance students, instructors, and potential inve
 3. View output tables, return metrics, and plots directly in the notebook
 
 ## 6. Product Link / Demo
-GitHub Repository: [
-](https://github.com/MINYULI1101/ACC102-Track2/blob/main/ACC102_Track2_WRDS_Analysis_liminyu.ipynb)Demo Video: 
+GitHub Repository: https://github.com/MINYULI1101/ACC102-Track2/blob/main/ACC102_Track2_WRDS_Analysis_liminyu.ipynb
+Demo Video: 
 
 ## 7. Limitations & Next Steps
 - Limitations: Only 12 months of data; no macroeconomic factors included.
