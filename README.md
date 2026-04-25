@@ -1,25 +1,36 @@
-# ACC102 Track2 Assignment: Tech Stock Analysis
+# ACC102 Track 2: Tech Stock Monthly Performance Analysis
 
-## Overview
-This project analyzes the monthly performance of three major tech stocks (AAPL, MSFT, GOOGL) using WRDS CRSP monthly stock data from 2025.
+## 1. Problem & User
+This project analyzes the monthly risk and return performance of three major U.S. tech stocks: AAPL, MSFT, GOOGL.
+The intended audience includes finance students, instructors, and potential investors interested in empirical stock performance.
 
-## Key Steps
-1. **Data Source**: WRDS CRSP Monthly Stock Data
-2. **Data Processing**:
-   - Converted date column to standard format
-   - Pivoted data into a "Date × Stock" table
-   - Cleaned missing values
-3. **Analysis & Visualization**:
-   - Cumulative return trend comparison
-   - Annual volatility calculation
-   - Average monthly return analysis
+## 2. Data
+- Source: WRDS CRSP Monthly Stock Database (2025)
+- Access date: April 2026
+- Key fields: Ticker, Monthly Date, Monthly Price
 
-## Key Findings
-- **Best performer**: GOOGL, with the highest cumulative return
-- **Most stable**: AAPL, with the lowest annual volatility (~21.7%)
-- **Consistent performer**: MSFT, with steady growth throughout the year
+## 3. Methods (Main Python Steps)
+1. Load and clean monthly stock data
+2. Convert date to datetime format
+3. Calculate monthly returns and cumulative returns
+4. Compute annualized volatility
+5. Visualize performance trends using Matplotlib
 
-## Tools Used
-- Python (Pandas, Matplotlib)
-- WRDS CRSP Database
-- Jupyter Notebook
+## 4. Key Findings
+- GOOGL achieved the **highest cumulative return** in 2025.
+- AAPL showed the **lowest volatility**, making it the most stable stock.
+- MSFT delivered steady and consistent growth throughout the year.
+- All three stocks exhibited positive annual returns.
+
+## 5. How to Run
+1. Open the Jupyter Notebook (.ipynb) file
+2. Run all cells sequentially
+3. View output tables, return metrics, and plots directly in the notebook
+
+## 6. Product Link / Demo
+GitHub Repository: 
+Demo Video: 
+
+## 7. Limitations & Next Steps
+- Limitations: Only 12 months of data; no macroeconomic factors included.
+- Improvements: Extend data period, add more stocks, include Sharpe ratio, and build interactive charts.
